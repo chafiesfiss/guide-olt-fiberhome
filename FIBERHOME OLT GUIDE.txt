@@ -1,9 +1,3 @@
- 
-
-
-
-
-
 
 AN6001-G16
 Optical Line Terminal Equipment
@@ -14,25 +8,9 @@ Version: A
 
 Code: MN000003551
 
-
-
-
-
-
-
-
-
-
-
-
-
 FiberHome Telecommunication Technologies Co., Ltd. December 2018
  
-
- 
 Thank you for choosing our products.
-
-
 
 
 We appreciate your business. Your satisfaction is our goal. We will provide you with comprehensive technical support and after-sales service. Please contact your local sales representative, service representative or distributor for any help needed at the contact information shown below.
@@ -45,27 +23,16 @@ Tel:	+6 03 7960 0860/0884 (for Malaysia)
 +593 4 501 4529 (for South America)
 Fax:	+86 27 8717 8521
 Website: http://www.fiberhomegroup.com
- 
-
- 
+  
 Legal Notice
-
-
-
-
-
 
 are trademarks of FiberHome Telecommunication Technologies Co., Ltd. (Hereinafter referred to as FiberHome)
 All brand names and product names used in this document are used for identification purposes only and are trademarks or registered trademarks of their respective holders.
 All rights reserved
 No part of this document (including the electronic version) may be reproduced or transmitted in any form or by any means without prior written permission from FiberHome.
 Information in this document is subject to change without notice.
- 
-
- 
+  
 Contents
-
-
  
 1	Documentation Guide	1
 2	Logging into the Device	2
@@ -302,8 +269,6 @@ network maintenance phase
  
 2	Logging into the Device
 
-
-
 Login Through Hyper Terminal Login Through Telnet
  
 2.1	Login Through Hyper Terminal
@@ -316,23 +281,11 @@ Properly connect the PC to the CONSOLE port of the main control service card wit
 The Windows XP operating system is used as an example here.
 
 2.	In the Connection Description dialog box, enter the name of the object to be connected and select an icon for it.
-
-
 3.	Click OK, and the Connect To dialog box appears.
 4.	In the Connect To dialog box, select the computer's COM1 port to be connected to the CONSOLE port of the main control service card through the serial port line.
- 
-
-
- 
-
 5.	Click OK, and the COM1 Properties dialog box appears.
 6.	In the COM1 Properties dialog box, click the Restore Defaults button.
-
-
 7.	Click OK to start up the CONSOLE.
-
- 
-
 8.	Press the <Enter> key, and enter the user name and password to log into the CLI network management system.
 Login:GEPON
 // The default user is the administrator user, and the user name is "GEPON".
@@ -357,26 +310,15 @@ Users should memorize their passwords and keep them secret. Regularly changing p
 2.2	Login Through Telnet
 
 When logging into the equipment through a hyper terminal, you can configure the out-of-band management IP address and in-band management IP address for the equipment. After the aforesaid configuration, you can log into the equipment though Telnet. Follow the steps below:
- 
-
 1.	Click the Start menu on the desktop, and select Run to bring up the Run dialog box.
-
  	Note:
 The Windows XP operating system is used as an example here.
-
 2.	Enter telnet x.x.x.x in the Run dialog box.
-
-
  	Note:
 x.x.x.x is the out-of-band management IP address for the equipment (configured under the directory of Admin (config-if-meth-1)) or the in-band management IP address (the IP address of the management VLAN configured under the directory of Admin(config)).
 3.	Click OK to bring up the Telnet x.x.x.x window.
-
-
 4.	Enter the user name and the password to log into the CLI network management system.
- 
-
-
-Login:GEPON
+ Login:GEPON
 // The default user is administrator, and the user name is "GEPON".
 Password:*****
 // The initial password is "GEPON".
